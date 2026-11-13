@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import { add, formatVersion } from '../src/utils.js';
 
 test('adds two positive numbers', () => {
-  assert.equal(add(2, 2), 4); // Lab 3: change ONLY the expected 4 to 5.
+assert.equal(add(2, 2), 5); // Originally 4. Five is deliberately wrong.
+
 });
 
 test('adds a negative number', () => {
